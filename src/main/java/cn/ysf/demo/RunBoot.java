@@ -46,7 +46,7 @@ public class RunBoot {
             ) {
            System.out.println(u);
        }*/
-       //扩展操作
+       //扩展操作 使用
         List<User> users1 = dao.findByNameLike("%王%");
         for (User u1:users1
         ) {
